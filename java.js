@@ -50,7 +50,7 @@ function init() {
 function kiirKepek() {
     var txt = " ";
     for (let i = 0; i < kepek.length; i++) {
-        txt = txt + "<div>" + "<h3>" + kepek[i].cim + "</h3>" + "<img src='" + kepek[i].eleresiut + "' class='kepek' id='" + i + "' alt='cicás képek'/>" +
+        txt = txt + "<div>" + "<h3>" + kepek[i].cim + "</h3>" + "<img src='" + kepek[i].eleresiut + "' class='kepek' id='" + i + "' alt='kép'/>" +
             "<p>" + kepek[i].leírás + "</p> </div>"
     }
     ID("galeria").innerHTML = txt;

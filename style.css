@@ -1,0 +1,81 @@
+@charset "utf-8";
+body {
+    background-color: beige;
+}
+
+#galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.kepek {
+    width: 80%;
+}
+
+img {
+    width: 100%;
+}
+
+header,
+aside,
+article,
+footer,
+main {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "h h" "ar ar" "f f";
+}
+
+header {
+    grid-area: h;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+article {
+    grid-area: ar;
+}
+
+footer {
+    grid-area: f;
+    text-align: center;
+}
+
+.jobbcss {
+    float: right;
+    margin: 5px;
+}
+
+.balcss {
+    float: left;
+    margin: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    /*400px alatt milyen legyen a kinézet.*/
+    main {
+        grid-template-columns: 1fr;
+        grid-template-areas: "h " "n " "ar" "f";
+    }
+    nav ul {
+        padding-left: 0px;
+        padding-right: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2px;
+        list-style-type: none;
+        padding: 5px 0px;
+    }
+    #galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

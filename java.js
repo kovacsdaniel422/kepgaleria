@@ -1,27 +1,27 @@
 window.addEventListener("load", init);
 var kepek = [{
         cim: "01-es kép",
-        eleresiut: "_DSC7025.jpg",
+        eleresiut: "pics/1.jpg",
         leírás: "Nature",
     },
     {
         cim: "02-es kép",
-        eleresiut: "_DSC7365.jpg",
+        eleresiut: "pics/2.jpg",
         leírás: "Nature",
     },
     {
         cim: "03-es kép",
-        eleresiut: "_DSC7371_1.jpg",
+        eleresiut: "pics/3.jpg",
         leírás: "Nature",
     },
     {
         cim: "04-es kép",
-        eleresiut: "DSC7444.jpg",
+        eleresiut: "pics/4.jpg",
         leírás: "Nature",
     },
     {
         cim: "05-es kép",
-        eleresiut: "DSC7515.jpg",
+        eleresiut: "pics/5.jpg",
         leírás: "Nature",
     }
 ]
